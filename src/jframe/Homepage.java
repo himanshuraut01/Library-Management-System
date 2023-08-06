@@ -723,6 +723,12 @@ public class Homepage extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_jLabel13MouseClicked
 
+     private void jLabel14MouseClicked(java.awt.event.MouseEvent evt) {                                      
+       Loginpage login=new Loginpage();
+       login.setVisible(true);
+       dispose();
+    }
+
     /**
      * @param args the command line arguments
      */
